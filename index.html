@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kuis Interaktif Basis Data — Versi Baru</title>
+  <title>Kuis Interaktif Basis Data — Versi Baru (Soal Ditambah)</title>
 
   <!-- Bootstrap & Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -223,7 +223,7 @@
         </div>
 
         <!-- Q3 -->
-        <div class="mb-1" data-question="mcq" data-points="10" data-answer="a">
+        <div class="mb-3" data-question="mcq" data-points="10" data-answer="a">
           <p class="mb-2 fw-semibold">3) <code>INNER JOIN</code> akan…</p>
           <div class="row row-cols-1 row-cols-md-2 g-2">
             <div class="col">
@@ -253,6 +253,103 @@
           </div>
           <div class="mt-2 small" data-feedback></div>
         </div>
+
+        <!-- Q4 (baru) -->
+        <div class="mb-3" data-question="mcq" data-points="10" data-answer="c">
+          <p class="mb-2 fw-semibold">4) Tujuan utama penggunaan <em>index</em> pada kolom adalah…</p>
+          <div class="row row-cols-1 row-cols-md-2 g-2">
+            <div class="col">
+              <div class="form-check bg-white p-2 rounded border">
+                <input class="form-check-input" type="radio" name="q4" id="q4a" value="a">
+                <label class="form-check-label" for="q4a">Menghemat ruang penyimpanan</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-check bg-white p-2 rounded border">
+                <input class="form-check-input" type="radio" name="q4" id="q4b" value="b">
+                <label class="form-check-label" for="q4b">Mempercepat proses <code>INSERT</code></label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-check bg-white p-2 rounded border">
+                <input class="form-check-input" type="radio" name="q4" id="q4c" value="c">
+                <label class="form-check-label" for="q4c">Mempercepat proses pencarian (<code>SELECT</code>)</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-check bg-white p-2 rounded border">
+                <input class="form-check-input" type="radio" name="q4" id="q4d" value="d">
+                <label class="form-check-label" for="q4d">Menjaga referential integrity</label>
+              </div>
+            </div>
+          </div>
+          <div class="mt-2 small" data-feedback></div>
+        </div>
+
+        <!-- Q5 (baru) -->
+        <div class="mb-3" data-question="mcq" data-points="10" data-answer="d">
+          <p class="mb-2 fw-semibold">5) Pada konsep ACID, huruf <strong>I</strong> merujuk pada…</p>
+          <div class="row row-cols-1 row-cols-md-2 g-2">
+            <div class="col">
+              <div class="form-check bg-white p-2 rounded border">
+                <input class="form-check-input" type="radio" name="q5" id="q5a" value="a">
+                <label class="form-check-label" for="q5a">Atomicity</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-check bg-white p-2 rounded border">
+                <input class="form-check-input" type="radio" name="q5" id="q5b" value="b">
+                <label class="form-check-label" for="q5b">Consistency</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-check bg-white p-2 rounded border">
+                <input class="form-check-input" type="radio" name="q5" id="q5c" value="c">
+                <label class="form-check-label" for="q5c">Availability</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-check bg-white p-2 rounded border">
+                <input class="form-check-input" type="radio" name="q5" id="q5d" value="d">
+                <label class="form-check-label" for="q5d">Isolation</label>
+              </div>
+            </div>
+          </div>
+          <div class="mt-2 small" data-feedback></div>
+        </div>
+
+        <!-- Q6 (baru) -->
+        <div class="mb-1" data-question="mcq" data-points="10" data-answer="a">
+          <p class="mb-2 fw-semibold">6) Manakah yang <em>paling tepat</em> mendeskripsikan <strong>Normal Form 3
+              (3NF)</strong>?</p>
+          <div class="row row-cols-1 row-cols-md-2 g-2">
+            <div class="col">
+              <div class="form-check bg-white p-2 rounded border">
+                <input class="form-check-input" type="radio" name="q6" id="q6a" value="a">
+                <label class="form-check-label" for="q6a">Tidak ada ketergantungan transitif pada kunci</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-check bg-white p-2 rounded border">
+                <input class="form-check-input" type="radio" name="q6" id="q6b" value="b">
+                <label class="form-check-label" for="q6b">Semua kolom adalah atomic</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-check bg-white p-2 rounded border">
+                <input class="form-check-input" type="radio" name="q6" id="q6c" value="c">
+                <label class="form-check-label" for="q6c">Tidak ada nilai NULL</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-check bg-white p-2 rounded border">
+                <input class="form-check-input" type="radio" name="q6" id="q6d" value="d">
+                <label class="form-check-label" for="q6d">Semua kolom harus berindeks</label>
+              </div>
+            </div>
+          </div>
+          <div class="mt-2 small" data-feedback></div>
+        </div>
       </div>
     </section>
 
@@ -264,20 +361,29 @@
           <span class="badge bg-primary">2</span>
         </div>
 
-        <!-- Q4 -->
+        <!-- Q7 -->
         <div class="mb-3" data-question="input" data-points="10"
           data-keywords='[{"type":"regex","pattern":"^\\s*INSERT\\s+INTO\\s+produk\\s*\\(\\s*id\\s*,\\s*nama\\s*,\\s*harga\\s*\\)\\s*VALUES\\s*\\(.*\\)\\s*;?\\s*$","flags":"i"}]'>
-          <p class="fw-semibold mb-2">4) SQL untuk menambahkan data ke <code>produk(id, nama, harga)</code>.</p>
+          <p class="fw-semibold mb-2">1) SQL untuk menambahkan data ke <code>produk(id, nama, harga)</code>.</p>
           <textarea class="form-control" rows="3"
             placeholder="INSERT INTO produk (id, nama, harga) VALUES (1, 'Pulpen', 2500);"></textarea>
           <div class="mt-2 small" data-feedback></div>
         </div>
 
-        <!-- Q5 -->
-        <div class="mb-1" data-question="input" data-points="10"
+        <!-- Q8 -->
+        <div class="mb-3" data-question="input" data-points="10"
           data-keywords='[{"type":"includes","any":["redundansi","konsistensi","efisiensi","integritas"]}]'>
-          <p class="fw-semibold mb-2">5) Sebutkan dua keuntungan normalisasi basis data.</p>
+          <p class="fw-semibold mb-2">2) Sebutkan dua keuntungan normalisasi basis data.</p>
           <input class="form-control" placeholder="Contoh: mengurangi redundansi, meningkatkan konsistensi">
+          <div class="mt-2 small" data-feedback></div>
+        </div>
+
+        <!-- Q9 (baru) -->
+        <div class="mb-1" data-question="input" data-points="10"
+          data-keywords='[{"type":"regex","pattern":"^\\s*CREATE\\s+TABLE\\s+mahasiswa\\s*\\(.*nim.*nama.*jurusan.*\\)\\s*;?\\s*$","flags":"i"}]'>
+          <p class="fw-semibold mb-2">3) DDL untuk membuat tabel <code>mahasiswa(nim, nama, jurusan)</code>.</p>
+          <textarea class="form-control" rows="3"
+            placeholder="CREATE TABLE mahasiswa (nim VARCHAR(10) PRIMARY KEY, nama VARCHAR(100), jurusan VARCHAR(50));"></textarea>
           <div class="mt-2 small" data-feedback></div>
         </div>
       </div>
@@ -291,17 +397,18 @@
           <span class="badge bg-primary">3</span>
         </div>
 
-        <div class="row g-3" data-question="match" data-points="15"
+        <!-- Matching A -->
+        <div class="row g-3 mb-4" data-question="match" data-points="15"
           data-map='{"Primary Key":"Kolom unik dan tidak boleh NULL","Foreign Key":"Menghubungkan dua tabel","Query":"Perintah untuk mengambil atau memanipulasi data"}'>
 
           <!-- bank -->
           <div class="col-md-5">
             <div class="p-3 rounded-3 border">
               <div class="d-flex justify-content-between align-items-center mb-2">
-                <div class="fw-semibold">Bank Istilah</div>
-                <button id="resetMatch" class="btn btn-sm btn-outline-secondary">Reset Bagian 3</button>
+                <div class="fw-semibold">Bank Istilah (A)</div>
+                <button class="btn btn-sm btn-outline-secondary reset-match">Reset</button>
               </div>
-              <div id="matchBank" class="d-grid gap-2">
+              <div class="d-grid gap-2">
                 <button class="btn btn-outline-info drag-item" draggable="true" data-item="Primary Key">Primary
                   Key</button>
                 <button class="btn btn-outline-info drag-item" draggable="true" data-item="Foreign Key">Foreign
@@ -329,6 +436,51 @@
                   <div class="small text-secondary mb-1">Perintah untuk mengambil atau memanipulasi data</div>
                   <div class="dropzone dropzone-match p-2 rounded"
                     data-target="Perintah untuk mengambil atau memanipulasi data"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-2 small" data-feedback></div>
+        </div>
+
+        <!-- Matching B (baru) -->
+        <div class="row g-3" data-question="match" data-points="15"
+          data-map='{"UNIQUE":"Menjamin nilai kolom tidak duplikat","NOT NULL":"Melarang nilai kosong","CHECK":"Membatasi nilai berdasarkan ekspresi logis"}'>
+
+          <!-- bank -->
+          <div class="col-md-5">
+            <div class="p-3 rounded-3 border">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <div class="fw-semibold">Bank Istilah (B)</div>
+                <button class="btn btn-sm btn-outline-secondary reset-match">Reset</button>
+              </div>
+              <div class="d-grid gap-2">
+                <button class="btn btn-outline-info drag-item" draggable="true" data-item="UNIQUE">UNIQUE</button>
+                <button class="btn btn-outline-info drag-item" draggable="true" data-item="NOT NULL">NOT NULL</button>
+                <button class="btn btn-outline-info drag-item" draggable="true" data-item="CHECK">CHECK</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- target -->
+          <div class="col-md-7">
+            <div class="p-3 rounded-3 border">
+              <div class="fw-semibold mb-2">Cocokkan ke Penjelasan</div>
+              <div class="vstack gap-3">
+                <div>
+                  <div class="small text-secondary mb-1">Menjamin nilai kolom tidak duplikat</div>
+                  <div class="dropzone dropzone-match p-2 rounded" data-target="Menjamin nilai kolom tidak duplikat">
+                  </div>
+                </div>
+                <div>
+                  <div class="small text-secondary mb-1">Melarang nilai kosong</div>
+                  <div class="dropzone dropzone-match p-2 rounded" data-target="Melarang nilai kosong"></div>
+                </div>
+                <div>
+                  <div class="small text-secondary mb-1">Membatasi nilai berdasarkan ekspresi logis</div>
+                  <div class="dropzone dropzone-match p-2 rounded"
+                    data-target="Membatasi nilai berdasarkan ekspresi logis"></div>
                 </div>
               </div>
             </div>
@@ -377,31 +529,99 @@
                 <td>1000</td>
                 <td>30</td>
               </tr>
+              <tr>
+                <td>4</td>
+                <td>Spidol</td>
+                <td>7000</td>
+                <td>0</td>
+              </tr>
             </tbody>
           </table>
         </div>
 
-        <!-- Q6: SQL -->
+        <!-- SQL-1 -->
         <div class="mb-3" data-question="sql" data-points="10"
           data-answers='["SELECT * FROM barang WHERE harga > 2000;","SELECT * FROM barang WHERE harga>2000;"]'>
-          <div class="fw-semibold mb-1">6) Tampilkan semua barang dengan harga di atas 2000.</div>
+          <div class="fw-semibold mb-1">1) Tampilkan semua barang dengan harga di atas 2000.</div>
           <input class="form-control" placeholder="SELECT * FROM barang WHERE harga > 2000;">
           <div class="mt-2 small" data-feedback></div>
         </div>
 
-        <!-- Q7: Debug -->
-        <div class="mb-1" data-question="debug" data-points="9"
+        <!-- SQL-2 (baru) -->
+        <div class="mb-3" data-question="sql" data-points="10"
+          data-answers='["DELETE FROM barang WHERE stok = 0;","DELETE FROM barang WHERE stok=0;"]'>
+          <div class="fw-semibold mb-1">2) Hapus semua barang yang <code>stok = 0</code>.</div>
+          <input class="form-control" placeholder="DELETE FROM barang WHERE stok = 0;">
+          <div class="mt-2 small" data-feedback></div>
+        </div>
+
+        <!-- SQL-3 (baru) -->
+        <div class="mb-3" data-question="sql" data-points="10" data-answers='[
+               "SELECT nama, COUNT(*) AS jumlah FROM barang GROUP BY nama;",
+               "select nama, count(*) as jumlah from barang group by nama;"
+             ]'>
+          <div class="fw-semibold mb-1">3) Tampilkan <code>nama</code> dan jumlah kemunculannya dari tabel
+            <code>barang</code>.</div>
+          <input class="form-control" placeholder="SELECT nama, COUNT(*) AS jumlah FROM barang GROUP BY nama;">
+          <div class="mt-2 small" data-feedback></div>
+        </div>
+
+        <!-- Debug-1 -->
+        <div class="mb-3" data-question="debug" data-points="9"
           data-correct="UPDATE barang SET harga = 2500 WHERE nama = 'Pulpen';">
-          <div class="fw-semibold mb-2">7) Perbaiki query salah: <span class="code">UPDATA barang SET harga=2500 WHERE
+          <div class="fw-semibold mb-2">4) Perbaiki query salah: <span class="code">UPDATA barang SET harga=2500 WHERE
               nama='Pulpen'</span></div>
           <input class="form-control" placeholder="UPDATE barang SET harga = 2500 WHERE nama = 'Pulpen';">
+          <div class="mt-2 small" data-feedback></div>
+        </div>
+
+        <!-- Debug-2 (baru) -->
+        <div class="mb-1" data-question="debug" data-points="9"
+          data-correct="SELECT nama, harga FROM barang WHERE harga >= 2000;">
+          <div class="fw-semibold mb-2">5) Perbaiki query salah: <span class="code">SELECT nama harga FROM barang WHERE
+              harga &gt;=;</span></div>
+          <input class="form-control" placeholder="SELECT nama, harga FROM barang WHERE harga >= 2000;">
+          <div class="mt-2 small" data-feedback></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Bagian 5: Studi Kasus ===== -->
+    <section class="card mb-5">
+      <div class="card-body p-4">
+        <div class="d-flex align-items-center justify-content-between mb-3">
+          <h2 class="h5 m-0">Bagian 5 — Studi Kasus Mini</h2>
+          <span class="badge bg-primary">5</span>
+        </div>
+
+        <!-- Case-1 -->
+        <div class="mb-3" data-question="sql" data-points="12" data-answers='[
+               "SELECT * FROM transaksi WHERE total > 100000 AND tanggal >= \"2025-10-01\" AND tanggal < \"2025-11-01\";",
+               "SELECT * FROM transaksi WHERE total>100000 AND tanggal>=\"2025-10-01\" AND tanggal<\"2025-11-01\";"
+             ]'>
+          <div class="fw-semibold mb-1">1) Tampilkan transaksi dengan <code>total &gt; 100000</code> pada
+            <strong>Oktober 2025</strong>.</div>
+          <input class="form-control"
+            placeholder='SELECT * FROM transaksi WHERE total > 100000 AND tanggal >= "2025-10-01" AND tanggal < "2025-11-01";'>
+          <div class="mt-2 small" data-feedback></div>
+        </div>
+
+        <!-- Case-2 (baru) -->
+        <div class="mb-1" data-question="sql" data-points="13" data-answers='[
+               "SELECT m.nama, COUNT(t.id) AS jml FROM mahasiswa m LEFT JOIN transaksi t ON t.mhs_id = m.id GROUP BY m.nama;",
+               "select m.nama, count(t.id) as jml from mahasiswa m left join transaksi t on t.mhs_id=m.id group by m.nama;"
+             ]'>
+          <div class="fw-semibold mb-1">2) Tampilkan setiap <code>mahasiswa.nama</code> dan jumlah transaksi yang
+            dimilikinya (0 jika tidak ada). Gunakan <code>LEFT JOIN</code>.</div>
+          <input class="form-control"
+            placeholder="SELECT m.nama, COUNT(t.id) AS jml FROM mahasiswa m LEFT JOIN transaksi t ON t.mhs_id = m.id GROUP BY m.nama;">
           <div class="mt-2 small" data-feedback></div>
         </div>
       </div>
     </section>
 
     <footer class="text-center mb-4">
-      <div class="footer-muted">© 2025 — Kuis Interaktif Basis Data (Biru • Putih • Abu)</div>
+      <div class="footer-muted">© 2025 — Kuis Interaktif Basis Data (Biru • Putih • Abu) • Paket soal diperluas</div>
     </footer>
   </div>
 
@@ -486,15 +706,15 @@
         return ok ? points : 0;
       }
 
-      /* ===== Drag & Drop matching ===== */
-      function initMatching() {
+      /* ===== Drag & Drop matching (mendukung banyak blok) ===== */
+      function initMatchingFor(container) {
         let dragged = null;
-        document.querySelectorAll('#matchBank .drag-item').forEach(btn => {
+        container.querySelectorAll('.drag-item').forEach(btn => {
           btn.addEventListener('dragstart', () => { dragged = btn; btn.classList.add('btn-info'); });
           btn.addEventListener('dragend', () => { dragged = null; btn.classList.remove('btn-info'); });
         });
 
-        const zones = document.querySelectorAll('.dropzone-match');
+        const zones = container.querySelectorAll('.dropzone-match');
         const removeDuplicates = (name) => {
           zones.forEach(z => {
             const placed = z.querySelector('.drag-item');
@@ -526,12 +746,17 @@
           });
         });
 
-        document.getElementById('resetMatch')?.addEventListener('click', () => {
-          document.querySelectorAll('.dropzone-match').forEach(z => { z.innerHTML = ''; z.classList.remove('is-correct', 'is-wrong', 'filled'); });
-          const fb = document.querySelector('[data-question="match"] [data-feedback]'); if (fb) fb.innerHTML = '';
+        container.querySelector('.reset-match')?.addEventListener('click', () => {
+          container.querySelectorAll('.dropzone-match').forEach(z => { z.innerHTML = ''; z.classList.remove('is-correct', 'is-wrong', 'filled'); });
+          const fb = container.closest('[data-question="match"]').querySelector('[data-feedback]');
+          if (fb) fb.innerHTML = '';
         });
       }
-      initMatching();
+
+      // inisialisasi semua blok matching
+      document.querySelectorAll('[data-question="match"]').forEach(block => {
+        initMatchingFor(block);
+      });
 
       function checkMatch(block) {
         const fb = block.querySelector('[data-feedback]');
@@ -627,7 +852,7 @@
         a.href = url;
         a.download = filename;
         a.rel = 'noopener';
-        a.target = '_self'; // jika Safari masih bermasalah, ganti ke '_blank'
+        a.target = '_self';
         document.body.appendChild(a);
         a.click();
         setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 1000);
